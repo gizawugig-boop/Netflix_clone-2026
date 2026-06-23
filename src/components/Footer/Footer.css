@@ -1,0 +1,69 @@
+/* Footer.css */
+
+/* Centers everything and adds global spacing */
+.footer_outer_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 20px 0;
+  background-color: var(--bg-color); /* Uses your #111 */
+  font-family: var(--font-second-base); /* Inter is great for footer links */
+}
+
+/* Constrains width so it doesn't stretch too far on ultra-wide screens */
+.footer_inner_container {
+  width: 100%;
+  max-width: 1080px;
+  padding: 0 4%;
+  box-sizing: border-box;
+}
+
+/* Social Icons Row */
+.footer_icons {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+  color: var(--primary-color); /* White icons */
+}
+
+.footer_icons svg,
+.footer_icons i {
+  font-size: 24px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.footer_icons svg:hover,
+.footer_icons i:hover {
+  opacity: 0.8;
+}
+
+/* Footer Link Columns Data Grid */
+.footer_data {
+  display: grid;
+  /* Creates a multi-column responsive grid layout automatically */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 40px;
+  width: 100%;
+}
+
+.footer_data ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Vertical gap between links */
+}
+
+.footer_data li {
+  color: #808080; /* Traditional grey text for Netflix footer links */
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: text-decoration 0.2s ease;
+  user-select: none;
+}
+
+.footer_data li:hover {
+  text-decoration: underline; /* Standard underline effect on hover */
+}
