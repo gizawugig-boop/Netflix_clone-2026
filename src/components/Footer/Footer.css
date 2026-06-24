@@ -1,8 +1,11 @@
 .footer_outer_container {
   background-color: #111;
+  width: 100%;
   color: grey;
   display: flex;
   justify-content: center;
+  /* font-family: var(--font-second-base); 
+      padding: 40px 0 20px 0; */
 }
 
 .footer_inner_container {

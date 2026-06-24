@@ -6,7 +6,7 @@
   align-items: center;
   background-color: rgb(148, 132, 132);
   background-color: rgb(20, 20, 20);
-  background-color: transparent;
+  /* background-color: transparent; */
   height: 10vh;
   color: white;
   transition: all 0.5s;
@@ -14,11 +14,9 @@
   z-index: 1;
   /* background-color: red; */
 }
-.header_outer_container:hover {
+/* .header_outer_container:hover {
   background-color: rgb(20, 20, 20);
-  /* opacity: 1; */
-  /* border-bottom: 0.5px solid white; */
-}
+} */
 
 .nav__black {
   background-color: rgb(20, 20, 20);
