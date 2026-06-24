@@ -1,11 +1,13 @@
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import "./Home.css";
+import Banner from "../../components/Banner/Banner";
 
 export default function Home() {
   return (
     <div>
       <Header />
+      <Banner />
       <Footer />
     </div>
   );

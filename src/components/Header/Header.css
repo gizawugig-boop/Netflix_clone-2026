@@ -1,18 +1,23 @@
 .header_outer_container {
   position: sticky;
-  top: 4px;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(148, 132, 132);
   background-color: rgb(20, 20, 20);
-  /* background-color: transparent; */
-  height: 20vh;
+  background-color: transparent;
+  height: 10vh;
   color: white;
   transition: all 0.5s;
   transition-timing-function: ease-in;
   z-index: 1;
   /* background-color: red; */
+}
+.header_outer_container:hover {
+  background-color: rgb(20, 20, 20);
+  /* opacity: 1; */
+  /* border-bottom: 0.5px solid white; */
 }
 
 .nav__black {
